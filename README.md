@@ -4,10 +4,10 @@ a simple earthquake bot
 Earthquake Tracker
 This Python script tracks recent earthquakes using data from the Afad Earthquake Database. It prints information about earthquakes with a magnitude greater than 2 on the Richter scale.
 
-Getting Started
+#Getting Started
 To use this script, you need to have Python installed on your system. You also need to install the following libraries:
 
-requests
+#requests
 BeautifulSoup
 You can install these libraries using pip:
 
