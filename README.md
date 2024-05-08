@@ -20,7 +20,3 @@ install the following libraries:
  python earthquake_tracker.py
  The script will continuously track earthquakes and print information about earthquakes
  with a magnitude greater than 2.
-
- ##Contributing
- Contributions are welcome! If you have any suggestions or find any issues, feel free to open
- an issue or submit a pull request.
