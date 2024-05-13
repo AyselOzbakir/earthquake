@@ -10,13 +10,16 @@ install the following libraries:
  - beautifulsoup4
 
 # You can install these libraries using pip:
+ ```
  pip install requests
  pip install beautifulsoup4
-
+```
 ## Usage
- 1. Clone the repository to your local machine or download the `earthquake_tracker.py` script.
+ 1. Clone the repository to your local machine or download the `earthquake.py` script.
  2. Navigate to the directory where the script is located.
  3. Run the script using Python:
- python earthquake_tracker.py
+ ```
+ python earthquake.py
+ ```
  The script will continuously track earthquakes and print information about earthquakes
  with a magnitude greater than 2.
