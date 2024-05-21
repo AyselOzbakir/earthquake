@@ -10,8 +10,8 @@ install the following libraries:
  - beautifulsoup4
 
 # You can install these libraries using pip:
-pip install requests
-pip install beautifulsoup4
+pip install requests beautifulsoup4 pywebview
+
 
 ## Usage
  1. Clone the repository to your local machine or download the `earthquake_tracker.py` script.
