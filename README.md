@@ -18,5 +18,4 @@ pip install requests beautifulsoup4 pywebview
  2. Navigate to the directory where the script is located.
  3. Run the script using Python:
  python earthquake_tracker.py
- The script will continuously track earthquakes and print information about earthquakes
- with a magnitude greater than 2.
+The script will continuously track earthquakes and display information about those with a magnitude greater than 2. It will also show the exact location of the earthquake within a Tkinter window with a button to open Google Maps.
