@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import tkinter as tk
 from tkinter import scrolledtext
-import webview
+import webbrowser
 
 library = []
 
@@ -45,8 +45,7 @@ def fetch_earthquakes():
 
 def open_google_maps(latitude, longitude):
     maps_url = f"https://www.google.com/maps/search/?api=1&query={latitude},{longitude}"
-    webview.create_window('Google Maps', maps_url)
-    webview.start()
+    webbrowser.open(maps_url)
 
 def update_display():
     new_earthquakes = fetch_earthquakes()
@@ -62,7 +61,6 @@ def update_display():
 root = tk.Tk()
 root.title("Earthquake Map")
 root.geometry("500x300")
-
 
 earthquake_display = scrolledtext.ScrolledText(root, height=20, width=70)
 earthquake_display.pack(pady=8)
